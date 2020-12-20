@@ -1,2 +1,5 @@
-# happy-config
-Web framework's config collection
+# @happy/config
+
+**@happy/config** is used for collecting common config of popular web frameworks, such as `webpack` `eslint` `prettier` etc.
+
+The purpose of this repo is simplifying application's dependencies and helping developers develop web application quickly.
