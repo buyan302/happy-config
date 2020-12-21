@@ -5,7 +5,7 @@
 ## Installation
 
 ```shell
-$ npm i -D eslint-config-for-js
+$ npx install-peerdeps -D eslint-config-for-js
 ```
 
 ## Usage
