@@ -8,4 +8,4 @@ The purpose of this repo is simplifying application's dependencies and the confi
 ## Supported Config
 
 - eslint
-  - [x] [@happy/eslint-config-js](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-js/README.md)
+  - [x] [eslint-config-for-js](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-for-js/README.md)
