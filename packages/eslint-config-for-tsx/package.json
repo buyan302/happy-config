@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-for-ts",
+  "name": "eslint-config-for-tsx",
   "version": "1.0.0",
-  "description": "Common eslint config for ts",
+  "description": "Common eslint config for tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,12 +19,12 @@
     "@typescript-eslint/parser": "^4.10.0",
     "eslint": "^7.16.0",
     "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-config-for-js": "^1.0.0"
+    "eslint-config-for-jsx": "^7.16.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
     "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-config-for-js": "^1.0.0"
+    "eslint-config-for-jsx": "^7.16.0"
   }
 }

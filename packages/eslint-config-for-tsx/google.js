@@ -1,10 +1,6 @@
 module.exports = {
   extends: [
-    'for-js/google',
+    'for-jsx/google',
     require.resolve('./base'),
-  ],
-  plugins: [
-    'jsx-a11y',
-    'react',
   ],
 };
