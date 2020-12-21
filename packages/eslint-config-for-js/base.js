@@ -7,6 +7,7 @@ module.exports = {
     commonjs: true,
   },
   extends: ['prettier'],
+  plugins: ['babel'],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
