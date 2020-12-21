@@ -1,12 +1,12 @@
 {
-  "name": "@happy/eslint-config-js",
+  "name": "eslint-config-for-js",
   "version": "1.0.0",
   "description": "Common eslint config for js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
-    "name": "buyan302",
+    "name": "buyan",
     "email": "cpyjss@gmail.com"
   },
   "license": "ISC",
@@ -14,12 +14,13 @@
     "eslint": "^7.16.0"
   },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^7.1.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-promise": "^4.2.1"
   }
 }
