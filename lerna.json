@@ -2,5 +2,15 @@
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.0"
+  "version": "independent",
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": ["--no-package-lock", "--registry=https://registry.npmjs.org/"]
+    },
+    "publish": {
+      "ignoreChanges": ["**/*.md"],
+      "message": "chore: publish",
+      "registry": "https://registry.npmjs.org/"
+    }
+  }
 }
