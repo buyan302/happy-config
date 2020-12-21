@@ -13,3 +13,22 @@ The purpose of this repo is simplifying application's dependencies and the confi
   - [x] [eslint-config-for-jsx](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-for-jsx/README.md)
   - [x] [eslint-config-for-ts](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-for-ts/README.md)
   - [x] [eslint-config-for-tsx](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-for-tsx/README.md)
+
+- `.editorconfig`
+
+You can copy the following code into your `.editorconfig` file
+
+```yml
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+```
