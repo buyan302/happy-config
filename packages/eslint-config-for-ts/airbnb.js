@@ -1,3 +1,3 @@
 module.exports = {
-  extends: [require.resolve('./base'), 'for-js/base', 'airbnb-typescript'],
+  extends: ['for-js/base', require.resolve('./base'), 'airbnb-typescript'],
 };

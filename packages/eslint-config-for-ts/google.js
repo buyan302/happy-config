@@ -1,3 +1,3 @@
 module.exports = {
-  extends: [require.resolve('./base'), 'for-js/google'],
+  extends: ['for-js/google', require.resolve('./base')],
 };

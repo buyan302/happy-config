@@ -1,3 +1,3 @@
 module.exports = {
-  extends: [require.resolve('./base'), 'for-js/standard'],
+  extends: ['for-js/standard', require.resolve('./base')],
 };
