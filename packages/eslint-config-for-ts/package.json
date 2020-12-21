@@ -5,6 +5,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "eslint",
+    "config",
+    "ts",
+    "es"
+  ],
   "author": {
     "name": "buyan",
     "email": "cpyjss@gmail.com"
