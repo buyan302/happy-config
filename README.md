@@ -1,10 +1,10 @@
 # happy-config
 
-**happy-config** is used for collecting common config of popular web frameworks, such as `webpack` `eslint` `prettier` etc.
+**happy-config** is used for collecting common config of popular web frameworks, such as `webpack` `eslint` `babel` etc.
 
 The purpose of this repo is simplifying application's dependencies and the configuration process so that developers can develop web application more quickly.
 
-> Inherit config, extend it.
+> Inherit happy-config, extend it.
 
 ## Supported Config
 
@@ -19,6 +19,9 @@ The purpose of this repo is simplifying application's dependencies and the confi
   - [x] [babel-config-for-ts](https://github.com/buyan302/happy-config/blob/main/packages/babel-config-for-ts/README.md)
   - [ ] [babel-config-for-jsx](https://github.com/buyan302/happy-config/blob/main/packages/babel-config-for-jsx/README.md)
   - [ ] [babel-config-for-tsx](https://github.com/buyan302/happy-config/blob/main/packages/babel-config-for-tsx/README.md)
+
+- webpack
+  - [ ] [webpack5-common-config]()
 
 - `.editorconfig`
 
