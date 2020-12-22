@@ -23,6 +23,12 @@ The purpose of this repo is simplifying application's dependencies and the confi
 - webpack
   - [ ] [webpack5-common-config](https://github.com/buyan302/happy-config/blob/main/packages/webpack5-base-config/README.md)
 
+- jest
+  - [ ] [jest-config-for-js]()
+  - [ ] [jest-config-for-jsx]()
+  - [ ] [jest-config-for-ts]()
+  - [ ] [jest-config-for-tsx]()
+
 - `.editorconfig`
 
 You can copy the following code into your `.editorconfig` file
