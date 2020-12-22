@@ -2,6 +2,11 @@ module.exports = {
   presets: [
     [
       '@babel/env',
+      {
+        useBuiltIns: 'entry',
+        corejs: 3,
+        targets: 'defaults'
+      },
     ],
   ],
   plugins: [

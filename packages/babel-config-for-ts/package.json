@@ -1,0 +1,32 @@
+{
+  "name": "babel-config-for-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Common babel config for ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "babel",
+    "config",
+    "ts",
+    "es"
+  ],
+  "author": {
+    "name": "buyan",
+    "email": "cpyjss@gmail.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buyan302/happy-config.git"
+  },
+  "peerDependencies": {
+    "babel-config-for-js": "^1.0.0",
+    "@babel/preset-typescript": "^7.12.7"
+  },
+  "devDependencies": {
+    "babel-config-for-js": "^1.0.0",
+    "@babel/preset-typescript": "^7.12.7"
+  }
+}

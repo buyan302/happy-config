@@ -4,7 +4,7 @@
 
 ## Installation
 
-**babel-config-for-js** needs babel runtime, so your need to install them before installing **babel-config-for-js**.
+**babel-config-for-js** needs babel-runtime, so your need to install them before installing **babel-config-for-js**.
 
 ```shell
 $ npm install @babel/runtime @babel/runtime-corejs3 core-js regenerator-runtime
