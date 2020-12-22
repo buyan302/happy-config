@@ -4,7 +4,7 @@
 
 The purpose of this repo is simplifying application's dependencies and the configuration process so that developers can develop web application more quickly.
 
-> Inherit happy-config, extend it.
+> Hate complicated config? Try happy-config, inherit it, extend it.
 
 ## Supported Config
 
@@ -41,3 +41,7 @@ trim_trailing_whitespace = true
 [*.md]
 trim_trailing_whitespace = false
 ```
+
+## More Config?
+
+Leave a issue [here](https://github.com/buyan302/happy-config/issues)
