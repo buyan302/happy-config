@@ -10,9 +10,15 @@ The purpose of this repo is simplifying application's dependencies and the confi
 
 - eslint
   - [x] [eslint-config-for-js](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-for-js/README.md)
-  - [x] [eslint-config-for-jsx](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-for-jsx/README.md)
   - [x] [eslint-config-for-ts](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-for-ts/README.md)
+  - [x] [eslint-config-for-jsx](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-for-jsx/README.md)
   - [x] [eslint-config-for-tsx](https://github.com/buyan302/happy-config/blob/main/packages/eslint-config-for-tsx/README.md)
+
+- babel
+  - [x] [babel-config-for-js](https://github.com/buyan302/happy-config/blob/main/packages/babel-config-for-js/README.md)
+  - [x] [babel-config-for-ts](https://github.com/buyan302/happy-config/blob/main/packages/babel-config-for-ts/README.md)
+  - [ ] [babel-config-for-jsx](https://github.com/buyan302/happy-config/blob/main/packages/babel-config-for-jsx/README.md)
+  - [ ] [babel-config-for-tsx](https://github.com/buyan302/happy-config/blob/main/packages/babel-config-for-tsx/README.md)
 
 - `.editorconfig`
 
