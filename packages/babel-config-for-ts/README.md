@@ -1,6 +1,6 @@
 # babel-config-for-ts
 
-**babel-config-for-ts** is designed for compiling `ts`. It is based on `Babel7` and `core-js3`.
+**babel-config-for-ts** is designed for compiling `.ts` and '.tsx'. It is based on `Babel7` and `core-js3`.
 
 ## Installation
 
@@ -13,11 +13,19 @@ $ npx install-peerdeps -D babel-config-for-ts
 
 ## Usage
 
-Set babel config:
+To compile `.ts`, set babel config:
 
 ```json
 {
-  "extends": ["babel-config-for-ts"]
+  "extends": "babel-config-for-ts"
+}
+```
+
+To compile `.tsx`, set babel config:
+
+```json
+{
+  "extends": "babel-config-for-ts/tsx"
 }
 ```
 
