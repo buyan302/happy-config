@@ -1,16 +1,18 @@
 {
-  "name": "babel-config-for-ts",
+  "name": "babel7-config-for-jsx",
   "version": "1.0.0",
   "main": "index.js",
-  "description": "Common babel config for ts",
+  "description": "Common babel config for jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "babel",
     "config",
-    "ts",
-    "es"
+    "js",
+    "es",
+    "jsx",
+    "react"
   ],
   "author": {
     "name": "buyan",
@@ -21,12 +23,11 @@
     "type": "git",
     "url": "git+https://github.com/buyan302/happy-config.git"
   },
-  "peerDependencies": {
-    "babel-config-for-js": "^1.0.0",
-    "@babel/preset-typescript": "^7.12.7"
-  },
+  "peerDependencies": {},
   "devDependencies": {
-    "babel-config-for-js": "^1.0.0",
-    "@babel/preset-typescript": "^7.12.7"
+    "@babel/plugin-transform-react-jsx-self": "^7.12.1",
+    "@babel/plugin-transform-react-jsx-source": "^7.12.1",
+    "@babel/preset-react": "^7.12.10",
+    "babel7-config-for-js": "^1.0.0"
   }
 }
