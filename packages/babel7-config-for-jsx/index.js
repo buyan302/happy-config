@@ -8,14 +8,14 @@ const hasJsxRuntime = function () {
 };
 
 module.exports = {
-  extends: 'babel7-config-for-js',
+  extends: require.resolve('babel7-config-for-js'),
   overrides: [{
     presets: [['@babel/preset-react', {
       runtime: hasJsxRuntime ? 'automatic' : 'classic',
     }]],
     plugins: hasJsxRuntime() ? undefined : [
-      'transform-react-jsx-self',
-      'transform-react-jsx-source',
+      '@babel/plugin-transform-react-jsx-self',
+      '@babel/plugin-transform-react-jsx-source',
     ],
   }],
 };

@@ -4,7 +4,8 @@
   "main": "index.js",
   "description": "Common babel config for jsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel test --out-dir dist",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "babel",
@@ -23,11 +24,22 @@
     "type": "git",
     "url": "git+https://github.com/buyan302/happy-config.git"
   },
-  "peerDependencies": {},
-  "devDependencies": {
+  "peerDependencies": {
     "@babel/plugin-transform-react-jsx-self": "^7.12.1",
     "@babel/plugin-transform-react-jsx-source": "^7.12.1",
     "@babel/preset-react": "^7.12.10",
     "babel7-config-for-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-transform-react-jsx-self": "^7.12.1",
+    "@babel/plugin-transform-react-jsx-source": "^7.12.1",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/runtime": "^7.12.5",
+    "@babel/runtime-corejs3": "^7.12.5",
+    "babel7-config-for-js": "file:../babel7-config-for-js",
+    "core-js": "^3.8.1",
+    "regenerator-runtime": "^0.13.7"
   }
 }
