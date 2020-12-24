@@ -1,6 +1,6 @@
 ## **eslint-config-for-js**
 
-### 2020-12-22(1.0.0)
+### 1.0.0
 
 feature:
 
@@ -8,7 +8,7 @@ feature:
 
 ## **eslint-config-for-ts**
 
-### 2020-12-22(1.0.0)
+### 1.0.0
 
 feature:
 
@@ -16,7 +16,7 @@ feature:
 
 ## **eslint-config-for-jsx**
 
-### 2020-12-22(1.0.0)
+### 1.0.0
 
 feature:
 
@@ -24,7 +24,7 @@ feature:
 
 ## **eslint-config-for-tsx**
 
-### 2020-12-22(1.0.0)
+### 1.0.0
 
 feature:
 
@@ -32,7 +32,7 @@ feature:
 
 ## **babel-config-for-js**
 
-### 2020-12-22(1.0.0)
+### 1.0.0
 
 feature:
 
@@ -40,7 +40,7 @@ feature:
 
 ## **babel-config-for-ts**
 
-### 2020-12-22(1.0.0)
+### 1.0.0
 
 feature:
 

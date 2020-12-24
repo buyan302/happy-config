@@ -21,7 +21,7 @@ The purpose of this repo is simplifying application's dependencies and the confi
   - [ ] [babel-config-for-tsx](https://github.com/buyan302/happy-config/blob/main/packages/babel-config-for-tsx/README.md)
 
 - webpack
-  - [ ] [webpack5-common-config](https://github.com/buyan302/happy-config/blob/main/packages/webpack5-base-config/README.md)
+  - [x] [webpack4-config-for-react](https://github.com/buyan302/happy-config/blob/main/packages/webpack4-config-for-react/README.md)
 
 - jest
   - [ ] [jest-config-for-js]()
