@@ -2,9 +2,9 @@
 
 **happy-config** is used for collecting common config of popular web frameworks, such as `webpack` `eslint` `babel` etc.
 
-The purpose of this repo is simplifying application's dependencies and the configuration process so that developers can develop web application more quickly.
+The purpose of this repo is simplifying application's dependencies installation process and the configuration process so that developers can develop web application more quickly.
 
-> Hate complicated config? Try happy-config, inherit it, extend it.
+> Hate complicated config and dependency? Try happy-config, inherit it, extend it.
 
 ## Supported Config
 
