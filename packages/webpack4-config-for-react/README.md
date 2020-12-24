@@ -41,7 +41,7 @@ const config = createReactConfig({
 |appNodeModules|string|'./node_modules'|dependency's dir
 |appHtml|string|'./public/index.html'|the application's html file
 |appTsConfig|string|'./tsconfig.json'|`tsconfig.json` file path
-|swSrc|string|'./src/service-worker|service worker dir
+|swSrc|string|'./src/service-worker'|service worker dir
 
 - feature config
 
@@ -60,7 +60,7 @@ const config = createReactConfig({
 |imageInlineSizeLimit|string|'10000'|image inline size limit, see [url-loader limit](https://www.npmjs.com/package/url-loader#limit)
 |interpolateHtmlPlugin|object|`{ PUBLIC_URL: './' }`|[` new InterpolateHtmlPlugin(HtmlWebpackPlugin, interpolateHtmlPlugin)`](https://www.npmjs.com/package/react-dev-utils#new-interpolatehtmlpluginhtmlwebpackplugin-htmlwebpackplugin-replacements-keystring-string)
 |definePlugin|object|`{}`|[DefinePlugin](https://webpack.js.org/plugins/define-plugin/) params
-|forkTsCheckerWebpackPlugin|`{reportFiles: ['../**/src/**/*.{ts,tsx}','**/src/**/*.{ts,tsx}','!**/src/**/__tests__/**','!**/src/**/?(*.)(spec|test).*',]}`|[react-dev-utils/ForkTsCheckerWebpackPlugin](https://www.npmjs.com/package/fork-ts-checker-webpack-plugin) params, only valid when `useTypescript` and `useTsCheck` are enabled
+|forkTsCheckerWebpackPlugin|object|`{reportFiles: ['../**/src/**/*.{ts,tsx}','**/src/**/*.{ts,tsx}','!**/src/**/__tests__/**','!**/src/**/?(*.)(spec\|test).*',]}`|[react-dev-utils/ForkTsCheckerWebpackPlugin](https://www.npmjs.com/package/fork-ts-checker-webpack-plugin) params, only valid when `useTypescript` and `useTsCheck` are enabled
 
 - other
 
