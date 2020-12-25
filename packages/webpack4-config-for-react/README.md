@@ -14,7 +14,7 @@ $ npx install-peerdeps -D webpack4-config-for-react
 const createReactConfig = require('webpack4-config-for-react')
 
 const config = createReactConfig({
-  mode = 'production'
+  mode = process.env.NODE_ENV
 })
 ```
 
@@ -67,6 +67,10 @@ const config = createReactConfig({
 |name|type|default|description
 |-----|-----|-----|-----|
 |appName|string|'app'|the application's name
+
+## Caveats
+
+You have to set `process.env.NODE_ENV` by yourself, cause `babel` needs `process.env.NODE_ENV` not `undefined`.
 
 
 
