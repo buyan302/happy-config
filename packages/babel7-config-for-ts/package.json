@@ -23,8 +23,8 @@
     "url": "git+https://github.com/buyan302/happy-config.git"
   },
   "peerDependencies": {
-    "babel7-config-for-js": "^1.0.0",
-    "@babel/preset-typescript": "^7.12.7"
+    "@babel/preset-typescript": "^7.12.7",
+    "babel7-config-for-js": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
