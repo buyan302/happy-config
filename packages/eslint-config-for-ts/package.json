@@ -31,6 +31,6 @@
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
     "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-config-for-js": "^1.0.0"
+    "eslint-config-for-js": "file:../eslint-config-for-js"
   }
 }

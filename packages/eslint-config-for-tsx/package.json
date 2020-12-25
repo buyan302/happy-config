@@ -25,12 +25,12 @@
     "@typescript-eslint/parser": "^4.10.0",
     "eslint": "^7.16.0",
     "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-config-for-jsx": "^7.16.0"
+    "eslint-config-for-jsx": "^1.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.10.0",
     "@typescript-eslint/parser": "^4.10.0",
     "eslint-config-airbnb-typescript": "^12.0.0",
-    "eslint-config-for-jsx": "^7.16.0"
+    "eslint-config-for-jsx": "file:../eslint-config-for-jsx"
   }
 }
