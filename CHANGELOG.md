@@ -38,7 +38,7 @@ feature:
 
 - support babel config for es
 
-## **babel7config-for-tsx**
+## **babel7config-for-ts**
 
 ### 1.0.0(2020-12-25)
 

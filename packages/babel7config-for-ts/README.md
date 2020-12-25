@@ -1,14 +1,14 @@
-# babel7config-for-tsx
+# babel7config-for-ts
 
-**babel7config-for-tsx** is designed for compiling `.ts` and '.tsx'. It is based on `Babel7` and `core-js3`.
+**babel7config-for-ts** is designed for compiling `.ts` and '.tsx'. It is based on `Babel7` and `core-js3`.
 
 ## Installation
 
-**babel7config-for-tsx** needs babel-runtime, so your need to install them before installing **babel7config-for-tsx**.
+**babel7config-for-ts** needs babel-runtime, so your need to install them before installing **babel7config-for-ts**.
 
 ```shell
 $ npm install @babel/runtime @babel/runtime-corejs3 core-js regenerator-runtime
-$ npx install-peerdeps -D babel7config-for-tsx
+$ npx install-peerdeps -D babel7config-for-ts
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ To compile `.ts`, set babel config:
 
 ```json
 {
-  "extends": "babel7config-for-tsx"
+  "extends": "babel7config-for-ts"
 }
 ```
 
@@ -25,7 +25,7 @@ To compile `.tsx`, set babel config:
 
 ```json
 {
-  "extends": "babel7config-for-tsx/tsx"
+  "extends": "babel7config-for-ts/tsx"
 }
 ```
 

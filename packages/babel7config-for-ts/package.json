@@ -1,5 +1,5 @@
 {
-  "name": "babel7config-for-tsx",
+  "name": "babel7config-for-ts",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Common babel config for ts",
