@@ -1,6 +1,6 @@
 {
   "name": "babel7config-for-jsx",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "description": "Common babel config for jsx",
   "scripts": {
