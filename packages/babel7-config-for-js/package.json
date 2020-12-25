@@ -4,7 +4,8 @@
   "main": "index.js",
   "description": "Common babel config for js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "babel test --out-dir dist",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "babel",
