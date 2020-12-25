@@ -16,9 +16,9 @@ The purpose of this repo is simplifying application's dependencies installation 
 
 - babel
   - babel7
-    - [x] [babel7-config-for-js](https://github.com/buyan302/happy-config/blob/main/packages/babel7-config-for-js/README.md)
-    - [x] [babel7-config-for-ts](https://github.com/buyan302/happy-config/blob/main/packages/babel7-config-for-ts/README.md), support both `.ts` & `.tsx`.
-    - [x] [babel7-config-for-jsx](https://github.com/buyan302/happy-config/blob/main/packages/babel7-config-for-jsx/README.md)
+    - [x] [babel7config-for-js](https://github.com/buyan302/happy-config/blob/main/packages/babel7config-for-js/README.md)
+    - [x] [babel7config-for-tsx](https://github.com/buyan302/happy-config/blob/main/packages/babel7config-for-tsx/README.md), support both `.ts` & `.tsx`.
+    - [x] [babel7config-for-jsx](https://github.com/buyan302/happy-config/blob/main/packages/babel7config-for-jsx/README.md)
 
 - webpack
   - [x] [webpack4-config-for-react](https://github.com/buyan302/happy-config/blob/main/packages/webpack4-config-for-react/README.md)

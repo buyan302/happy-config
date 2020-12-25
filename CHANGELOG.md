@@ -30,7 +30,7 @@ feature:
 
 - support eslint config for es,ts and react .tsx
 
-## **babel7-config-for-js**
+## **babel7config-for-js**
 
 ### 1.0.0(2020-12-25)
 
@@ -38,7 +38,7 @@ feature:
 
 - support babel config for es
 
-## **babel7-config-for-ts**
+## **babel7config-for-tsx**
 
 ### 1.0.0(2020-12-25)
 
@@ -46,7 +46,7 @@ feature:
 
 - support babel config for es, ts and react tsx
 
-## **babel7-config-for-jsx**
+## **babel7config-for-jsx**
 
 ### 1.0.0(2020-12-25)
 

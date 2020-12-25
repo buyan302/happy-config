@@ -1,5 +1,5 @@
 {
-  "name": "babel7-config-for-ts",
+  "name": "babel7config-for-tsx",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Common babel config for ts",
@@ -24,12 +24,12 @@
   },
   "peerDependencies": {
     "@babel/preset-typescript": "^7.12.7",
-    "babel7-config-for-js": "^1.0.0"
+    "babel7config-for-js": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
-    "babel7-config-for-js": "file:../babel7-config-for-js"
+    "babel7config-for-js": "file:../babel7config-for-js"
   }
 }

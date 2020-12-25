@@ -1,5 +1,5 @@
 {
-  "name": "babel7-config-for-js",
+  "name": "babel7config-for-js",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Common babel config for js",

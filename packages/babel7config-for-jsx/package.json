@@ -1,5 +1,5 @@
 {
-  "name": "babel7-config-for-jsx",
+  "name": "babel7config-for-jsx",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Common babel config for jsx",
@@ -28,7 +28,7 @@
     "@babel/plugin-transform-react-jsx-self": "^7.12.1",
     "@babel/plugin-transform-react-jsx-source": "^7.12.1",
     "@babel/preset-react": "^7.12.10",
-    "babel7-config-for-js": "^1.0.0"
+    "babel7config-for-js": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
@@ -38,7 +38,7 @@
     "@babel/preset-react": "^7.12.10",
     "@babel/runtime": "^7.12.5",
     "@babel/runtime-corejs3": "^7.12.5",
-    "babel7-config-for-js": "file:../babel7-config-for-js",
+    "babel7config-for-js": "file:../babel7config-for-js",
     "core-js": "^3.8.1",
     "regenerator-runtime": "^0.13.7"
   }
